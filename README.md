@@ -414,3 +414,10 @@ sudo apt install libstdc++6 libncurses5
 sudo apt install libsdl1.2debian
 ```
 Ubuntu Software > Android Studio
+
+**Install Node, npm**:
+
+```
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+nvm install 16.15.0
+```
