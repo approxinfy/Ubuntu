@@ -160,7 +160,7 @@ make test
 sudo make install
 ```
 
-**22.04 defaults to gcc version 11.2.0-1ubuntu1 (jammy). If you try to compile OpenCV, you’ll get “error: parameter packs not expanded with” which seems to be due to changes in gcc 11.2. Rather than try to downgrade gcc to 11.1 or edit the header files, I installed gcc-10 and g++-10 and then used update-alternatives to switch the compilers. OpenCV builds fine with gcc-10.**
+**22.04 defaults to gcc version 11.2.0 try to downgrade gcc to gcc-10 and g++ to g++-10 and then use update-alternatives to switch the compilers. OpenCV builds fine with gcc-10.**
 
 ```
 sudo apt-get install gcc-10
@@ -420,4 +420,10 @@ Ubuntu Software > Android Studio
 ```
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 nvm install 16.15.0
+```
+
+**React Setup**:
+
+```
+npm install -g create-react-app
 ```
